@@ -1,0 +1,50 @@
+.note-item {
+    color: var(--black, #252525);
+    font-family: Kanit;
+    width: 420px;
+    height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    border-top: 30px;
+    border-left: 115px;
+    border-right: 115px ;
+    padding-top: 20px;
+    
+    &:hover {
+      cursor: pointer;
+    }
+}
+
+ul{
+  list-style-type: none;
+}
+
+.checkbox-item{
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid var(--purple, #6C63FF); 
+
+    &:checked {
+      background-color: var(--purple, #6C63FF) !important
+    }
+}
+.note-form-btn-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 18px;
+    height: 18px;
+    padding-left: 10px;
+    position: absolute;
+    left:400px;
+    background:#6C63FF;
+    flex-direction: row;
+  }
+
+  

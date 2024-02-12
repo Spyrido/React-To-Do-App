@@ -1,0 +1,47 @@
+.filtering-container {
+    position: relative; /* Position relative for absolute positioning of the dropdown list */
+  }
+
+.dropdown-btn{
+    display: flex;
+    padding: 10px;
+    width: auto 85px;
+    height: auto 38px;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: var(--purple, #6C63FF);
+    color: var(--white, #F7F7F7);
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 18px */
+    text-transform: uppercase;
+    gap: 20px;  
+    padding-left: 10px;
+    border-color: #6C63FF;
+    
+}
+
+.dropdown-icon{
+    width: 6px;
+    height: 20px;
+    flex-shrink: 0;
+    text-align: end;
+}
+
+.dropdown-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    z-index: 1; /* Ensure the dropdown is on top of other elements */
+  }
+  
+  .filtering-container.show-list .dropdown-list {
+    display: block; /* Show the dropdown list when the container has the show-list class */
+  }

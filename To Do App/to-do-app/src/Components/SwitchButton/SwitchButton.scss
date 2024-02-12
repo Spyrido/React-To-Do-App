@@ -1,0 +1,15 @@
+.switch-dark-light{
+    padding-left:16px ;
+}
+
+// Define styles for the light theme
+[data-theme="light"] {
+    background-color: #ffffff; 
+    color: #000000; 
+  }
+  
+  // Define styles for the dark theme
+  [data-theme="dark"] {
+    background-color: #000000; 
+    color: #ffffff; 
+  }
